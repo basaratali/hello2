@@ -15,6 +15,8 @@
 		96215A2F2563BB6300D6719B /* helloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A2E2563BB6300D6719B /* helloTests.swift */; };
 		96215A3A2563BB6300D6719B /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A392563BB6300D6719B /* helloUITests.swift */; };
 		96215A482563CE6000D6719B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A472563CE6000D6719B /* RegisterViewController.swift */; };
+		96215A4A2563E1D700D6719B /* myCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A492563E1D700D6719B /* myCellTableViewCell.swift */; };
+		96215A4C2563EF1500D6719B /* NewViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A4B2563EF1500D6719B /* NewViewControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		96215A392563BB6300D6719B /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
 		96215A3B2563BB6300D6719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96215A472563CE6000D6719B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		96215A492563E1D700D6719B /* myCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCellTableViewCell.swift; sourceTree = "<group>"; };
+		96215A4B2563EF1500D6719B /* NewViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				96215A192563BB6000D6719B /* AppDelegate.swift */,
 				96215A1B2563BB6000D6719B /* ViewController.swift */,
 				96215A472563CE6000D6719B /* RegisterViewController.swift */,
+				96215A492563E1D700D6719B /* myCellTableViewCell.swift */,
+				96215A4B2563EF1500D6719B /* NewViewControllerViewController.swift */,
 				96215A1D2563BB6000D6719B /* Main.storyboard */,
 				96215A202563BB6300D6719B /* Assets.xcassets */,
 				96215A222563BB6300D6719B /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96215A482563CE6000D6719B /* RegisterViewController.swift in Sources */,
+				96215A4C2563EF1500D6719B /* NewViewControllerViewController.swift in Sources */,
+				96215A4A2563E1D700D6719B /* myCellTableViewCell.swift in Sources */,
 				96215A1C2563BB6000D6719B /* ViewController.swift in Sources */,
 				96215A1A2563BB6000D6719B /* AppDelegate.swift in Sources */,
 			);
@@ -437,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3ZH93DTBS;
 				INFOPLIST_FILE = hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3ZH93DTBS;
 				INFOPLIST_FILE = hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
