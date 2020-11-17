@@ -14,6 +14,7 @@
 		96215A242563BB6300D6719B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96215A222563BB6300D6719B /* LaunchScreen.storyboard */; };
 		96215A2F2563BB6300D6719B /* helloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A2E2563BB6300D6719B /* helloTests.swift */; };
 		96215A3A2563BB6300D6719B /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A392563BB6300D6719B /* helloUITests.swift */; };
+		96215A482563CE6000D6719B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96215A472563CE6000D6719B /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		96215A352563BB6300D6719B /* helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96215A392563BB6300D6719B /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
 		96215A3B2563BB6300D6719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96215A472563CE6000D6719B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				96215A192563BB6000D6719B /* AppDelegate.swift */,
 				96215A1B2563BB6000D6719B /* ViewController.swift */,
+				96215A472563CE6000D6719B /* RegisterViewController.swift */,
 				96215A1D2563BB6000D6719B /* Main.storyboard */,
 				96215A202563BB6300D6719B /* Assets.xcassets */,
 				96215A222563BB6300D6719B /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96215A482563CE6000D6719B /* RegisterViewController.swift in Sources */,
 				96215A1C2563BB6000D6719B /* ViewController.swift in Sources */,
 				96215A1A2563BB6000D6719B /* AppDelegate.swift in Sources */,
 			);
